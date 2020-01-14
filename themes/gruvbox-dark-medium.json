@@ -217,7 +217,7 @@
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#fe8019"
       }
     },
     {
@@ -277,15 +277,22 @@
     },
     {
       "scope": [
-        "entity.name",
-        "entity.static",
-        "entity.name.class.static.function",
-        "entity.name.function",
         "entity.name.class",
         "entity.name.type"
       ],
       "settings": {
         "foreground": "#fabd2f"
+      }
+    },
+    {
+      "scope": [
+        "entity.name",
+        "entity.static",
+        "entity.name.class.static.function",
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#ebdbb2"
       }
     },
     {
@@ -506,6 +513,80 @@
     },
     {
       "scope": [
+        "variable.language.this.java"
+      ],
+      "settings": {
+        "foreground": "#fe8019"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.java",
+        "meta.method-call.java"
+      ],
+      "settings": {
+        "foreground": "#fbf1c7"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.new.java"
+      ],
+      "settings": {
+        "foreground": "#fe8019"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.logical.java"
+      ],
+      "settings": {
+        "foreground": "#d65d0e"
+      }
+    },
+    {
+      "scope": [
+        "meta.method.identifier.java"
+      ],
+      "settings": {
+        "foreground": "#fbf1c7"
+      }
+    },
+    {
+      "scope": [
+        "meta.function-call.java"
+      ],
+      "settings": {
+        "foreground": "#d3869b"
+      }
+    },
+    {
+      "scope": [
+        "meta.method-call.java"
+      ],
+      "settings": {
+        "foreground": "#d5c5a1"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.generic.java"
+      ],
+      "settings": {
+        "foreground": "#8ec07c"
+      }
+    },
+    {
+      "scope": [
+        "meta.class.identifier.java",
+        "meta.class.java"
+      ],
+      "settings": {
+        "foreground": "#fbf1c7"
+      }
+    },
+    {
+      "scope": [
         "keyword.other.import.java",
         "keyword.other.package.java"
       ],
@@ -522,8 +603,7 @@
     {
       "scope": "storage.type.annotation",
       "settings": {
-        "foreground": "#83a598",
-        "fontStyle": "bold"
+        "foreground": "#83a598"
       }
     },
     {
@@ -1039,7 +1119,7 @@
     "peekView.border": "#3c3836",
     "peekViewEditor.background": "#3c383650",
     "peekViewEditorGutter.background": "#3c383650",
-    "peekViewEditor.matchHighlightBackground": "",
+    "peekViewEditor.matchHighlightBackground": "#504945",
     "peekViewResult.background": "#3c383650",
     "peekViewResult.fileForeground": "#ebdbb2",
     "peekViewResult.matchHighlightBackground": "#8ec07c30",
