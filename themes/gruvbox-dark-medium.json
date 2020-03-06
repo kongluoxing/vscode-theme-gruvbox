@@ -519,15 +519,15 @@
         "foreground": "#fe8019"
       }
     },
-    {
-      "scope": [
-        "entity.name.function.java",
-        "meta.method-call.java"
-      ],
-      "settings": {
-        "foreground": "#fbf1c7"
-      }
-    },
+    // {
+    //   "scope": [
+    //     "entity.name.function.java",
+    //     "meta.method-call.java"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#fbf1c7"
+    //   }
+    // },
     {
       "scope": [
         "keyword.control.new.java"
@@ -542,14 +542,6 @@
       ],
       "settings": {
         "foreground": "#d65d0e"
-      }
-    },
-    {
-      "scope": [
-        "meta.method.identifier.java"
-      ],
-      "settings": {
-        "foreground": "#fbf1c7"
       }
     },
     {
@@ -570,16 +562,32 @@
     },
     {
       "scope": [
-        "storage.type.generic.java"
+        "meta.method-call entity.name.function",
+        "support.function.go"
       ],
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#d5c4a1"
       }
     },
     {
       "scope": [
-        "meta.class.identifier.java",
+        "storage.type.generic.java"
+      ],
+      "settings": {
+        "foreground": "#bdae93"
+      }
+    },
+    {
+      "scope": [
         "meta.class.java"
+      ],
+      "settings": {
+        "foreground": "#d5c4a1"
+      }
+    },
+    {
+      "scope": [
+        "meta.class.identifier.java"
       ],
       "settings": {
         "foreground": "#fbf1c7"
